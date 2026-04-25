@@ -1,9 +1,9 @@
 # thompson-sampling-ab-test
 
-Thompson Sampling for A/B testing on the Cookie Cats dataset. Beta-Bernoulli posterior updates over 10,000 simulated users with cumulative regret tracking.
+A 2-armed bandit solution to A/B testing on the Cookie Cats dataset. Beta-Bernoulli posterior updates over 10,000 simulated users with cumulative regret tracking.
 
 ## Overview
-Cookie Cats is a mobile puzzle game where players encounter gates that force them to wait before continuing. This project treats the two gate placements (gate_30 vs gate_40) as a bandit problem and uses Thompson Sampling to dynamically allocate traffic to the better-performing variant, rather than running a static A/B test.
+Cookie Cats is a mobile puzzle game where players encounter gates that force them to wait before continuing. This project frames the two gate placements (gate_30 vs gate_40) as a Multi-Armed Bandit (MAB) problem and uses Thompson Sampling to dynamically allocate traffic to the better-performing variant, rather than running a static A/B test.
 
 ## Results
 
